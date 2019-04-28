@@ -1,15 +1,26 @@
 {
   "name": "hackmd-to-html",
-  "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "postinstall": "webpack --mode=production"
-  },
-  "author": "Nizar Khalife <khalifenizar@gmail.com>",
   "license": "ISC",
+  "author": "Nizar Khalife <khalifenizar@gmail.com>",
+  "homepage": "https://github.com/nizaroni/hackmd-to-html#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizaroni/hackmd-to-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nizaroni/hackmd-to-html/issues"
+  },
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "webpack",
+    "postinstall": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "codimd": "github:hackmdio/codimd",
     "emojify.js": "^1.1.0"
@@ -19,16 +30,5 @@
     "imports-loader": "^0.8.0",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1"
-  },
-  "directories": {
-    "example": "examples"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nizaroni/hackmd-to-html.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nizaroni/hackmd-to-html/issues"
-  },
-  "homepage": "https://github.com/nizaroni/hackmd-to-html#readme"
+  }
 }
