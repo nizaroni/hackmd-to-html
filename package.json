@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/nizaroni/hackmd-to-html/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/main.js",
   "directories": {
     "example": "examples"
