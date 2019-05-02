@@ -1,3 +1,4 @@
+const FakeQuery = require('./FakeQuery.js')
 const emojify = require('emojify.js')
 
 const window = {
@@ -17,11 +18,7 @@ const window = {
 		get: function () {},
 	},
 	$: function (html) {
-		if (html.startsWith('<img')) {
-			html = html.replace('/build/emojify.js/dist', 'https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0')
-			html = html.replace('></img>', '/>')
-		}
-		return [{ outerHTML: html }]
+		return new FakeQuery(html)
 	},
 	RegExp: global.RegExp,
 	serverurl: '',
