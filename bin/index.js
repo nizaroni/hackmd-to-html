@@ -45,7 +45,7 @@ try {
     thenMarkdown()
   });
 
-  const argv2 = process.argv[2].trim();
+  const argv2 = process.argv[2] && process.argv[2].trim();
   const mdfilepath = argv2 || '-'; // default to '-'
 
   if (argv2 === '--help' || argv2 === '-h') {
