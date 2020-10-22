@@ -23,11 +23,36 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@hackmd/emojify.js": "^2.1.0",
+    "acorn": "^8.0.4",
     "codimd": "github:hackmdio/codimd",
     "css-loader": "^2.1.1",
-    "emojify.js": "^1.1.0",
+    "file-saver": "^2.0.2",
     "imports-loader": "^0.8.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-ins": "^3.0.0",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-mathjax": "^2.0.0",
+    "markdown-it-regexp": "^0.4.0",
+    "markdown-it-ruby": "^0.1.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markmap-lib": "^0.4.3",
+    "papaparse": "^5.3.0",
+    "pdfobject": "^2.2.4",
+    "plantuml-encoder": "^1.4.0",
+    "prismjs": "^1.17.1",
+    "scrypt": "github:barrysteyn/node-scrypt#fb60a8d3c158fe115a624b5ffa7480f3a24b03fb",
+    "url-loader": "^4.1.1",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "webpack-cli": "^3.3.1",
+    "xss": "^1.0.8"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
   }
 }

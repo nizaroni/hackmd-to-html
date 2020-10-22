@@ -1,5 +1,5 @@
 const FakeQuery = require('./FakeQuery.js')
-const emojify = require('emojify.js')
+const emojify = require('@hackmd/emojify.js')
 
 const window = {
 	location: {
@@ -10,9 +10,11 @@ const window = {
 		mimeTypes: {},
 	},
 	document: Object.create({
+		documentElement: {},
 		getElementsByTagName: function () {
 			return []
 		},
+		querySelector: function () {},
 	}),
 	Cookies: {
 		get: function () {},
@@ -20,7 +22,9 @@ const window = {
 	$: function (html) {
 		return new FakeQuery(html)
 	},
+	Viz: function () {},
 	RegExp: global.RegExp,
+	USE_CDN: true,
 	serverurl: '',
 	emojify,
 }
