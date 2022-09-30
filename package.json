@@ -41,7 +41,7 @@
     "markdown-it-ruby": "^0.1.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "markmap-lib": "^0.4.3",
+    "markmap-lib": "^0.14.3",
     "papaparse": "^5.3.0",
     "pdfobject": "^2.2.4",
     "plantuml-encoder": "^1.4.0",
